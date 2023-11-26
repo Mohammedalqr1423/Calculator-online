@@ -1,0 +1,77 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+header {
+    background-color: #0f334f;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.name_page{
+    text-decoration: none;
+    color: #5d6b8f;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+footer {
+    background-color: #17141478;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.navigation a:hover {
+    color: #601cfc;
+}
+
+
+.navigation a:hover{
+    color: #601cfc;
+}
+
+.animated-background {
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: animateBackground 10s linear infinite;
+    background: url("pa.gif") no-repeat; /* استبدل برابط الصورة الخاص بك */
+    background-size: cover; /* تغطية الشاشة بالصورة */
+}
