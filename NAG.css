@@ -49,7 +49,7 @@ footer {
     width: 100%;
 }
 .navigation a {
-    color: #fff;
+    color: rgb(183, 161, 224);
     text-decoration: none;
     font-size: 1.3em;
     font-weight: 500;
@@ -74,4 +74,35 @@ footer {
     animation: animateBackground 10s linear infinite;
     background: url("pa.gif") no-repeat; /* استبدل برابط الصورة الخاص بك */
     background-size: cover; /* تغطية الشاشة بالصورة */
+}
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 1.2em;
+        margin-right: 10px;
+    }
+
+    .navigation a {
+        font-size: 0.9em;
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 50px 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #members li {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 10px;
+    }
 }

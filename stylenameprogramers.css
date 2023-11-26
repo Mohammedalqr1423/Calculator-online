@@ -28,35 +28,5 @@ h1 {
 
 }
 
-@media only screen and (max-width: 600px) {
-    header {
-        padding: 10px;
-    }
 
-    .logo {
-        font-size: 1.2em;
-        margin-right: 10px;
-    }
 
-    .navigation a {
-        font-size: 0.9em;
-        margin-right: 10px;
-    }
-
-    section {
-        padding: 50px 10px;
-    }
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    #members li {
-        font-size: 1em;
-    }
-
-    footer {
-        padding: 10px;
-    }
-}
-   
