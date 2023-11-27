@@ -8,14 +8,18 @@ section {
 h1 {
     font-size: 2em;
     color: #7b97a6;
+    
 
 }
+
 #members {
     list-style: none;
     padding: 0;
 }
 
 #members li{
+    font-family: 'Times New Roman', Times, serif;
+
      color: #e2d2d2;
     font-size: 2em;
     margin-bottom: 10px;

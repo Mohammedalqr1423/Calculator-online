@@ -22,25 +22,32 @@ header {
 .main {
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    align-items: center;
+    display:block;
+    align-items:center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .main h2 {
-    color: #0e0202;
-    font-size: 1.4em;
+    color: #161061;
+    font-size: 2.4em;
     font-weight: 500;
 }
 
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #4e9eff;
+    color: #365783;
     font-size: 3em;
     font-weight: 600;
+}
+.main img{
+    float: right;
+    
+
+    
+  
 }
 
 .main h3 {
@@ -50,11 +57,12 @@ header {
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+    
 }
 
 .main-btn {
-    color: #fff;
-    background-color: #3a6cf4;
+    color: #ffffff;
+    background-color: rgb(36, 34, 153);
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;

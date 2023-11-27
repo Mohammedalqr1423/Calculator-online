@@ -57,6 +57,10 @@ main {
     font-weight: 700;
     font-size: 1.8em;
 }
+.name_page:hover {
+    color: #737fa0;
+    transform: scale(1.1);
+}
 footer {
     background-color: #17141478;
     color: #fff;
