@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" href="NAG.css">
+   <link rel="stylesheet" href="calc.css">
+
+
+
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="calc.css"> 
-    <div class="animated-background"></div>
+    <style>
+      .back{
+         background-image: url("bak1.jpg");
+    background-size: cover;
+      }
+    </style>
 </head>
+<script src="https://kit.fontawesome.com/fff4c8d542.js" crossorigin="anonymous"></script>   
+
 <body>
-    <div>
+  <div class="back"></div>
+    <div id="her">
       
     <header>
-      <a href="#" class="logo"  onclick="location.href='HtmlCode1.html';">Calculator</a>
+      <a href="#" class="logo"  onclick="location.href='HtmlCode1.html';">Math</a>
       <a href="#" class="name_page"  onclick="location.href='HtmlCode2.html';">Calculator page </a>
 
       <nav class="navigation" >
@@ -21,6 +31,7 @@
             </nav>
             </header>
         </div>
+      
     <div class="container">
       <div class="calculator">
         <form>
@@ -37,7 +48,7 @@
             <input type="button" value="7" onclick="display.value += '7' ">
             <input type="button" value="8" onclick="display.value += '8' ">
             <input type="button" value="9" onclick="display.value += '9' ">
-            <input type="button" value="*" onclick="display.value += '*' " class="operator">
+            <input type="button" value="*" onclick="display.value += '*' ">
           </div>
           <div>
             <input type="button" value="4" onclick="display.value += '4' ">
@@ -51,7 +62,7 @@
             <input type="button" value="3" onclick="display.value += '3' ">
             <input type="button" value="+" onclick="display.value += '+' " class="operator">
           </div>
-          <div>
+          <div class="">
             <input type="button" value="00" onclick="display.value += '00' ">
             <input type="button" value="0" onclick="display.value += '0' ">
             <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal operator">
@@ -59,10 +70,51 @@
         </form>
       </div>
     </div>
-    <footer style="color: darkblue;font-size: 20px;">
-      <p><br>call us: <span id="contact-number"><i class="fas fa-phone"></i>  0502740637<br></span>  Email: <span id="contact-email"><i class="fas fa-envelope"></i> allq11221@gmail.com</span></p>
 
-      <p>Copyrights © 2023</p>
-  </footer>    
+
+  
+  <div id="fot">
+<footer> 
+    <div class="row"> <div class="col"> 
+        <img src="logo.png" class="logo"> 
+         <p>Subscribe Easy Tutorials Youtube channel to watch more videos on notification of latest videos.</p> 
+          website development and Press the bell icon to get immediate </div> 
+           <div class="col"> 
+                <h3>Officec</h3> 
+ 
+<p>Tabouk KSA</p> 
+<p class="email-id">allq11221@gmail.com</p> 
+ <h4>0502740637</h4> 
+  </div> 
+   <div class="col"> 
+    <h3>Links</h3> 
+     <ul> 
+
+      <li><a href="">Home</a></li> 
+            <li><a href="">About Us</a></li> 
+         
+</ul> 
+</div> 
+<div class="col">
+<h3>Newsletter</h3> 
+<form> 
+    <p>you need heelp?</p>
+    <a href="#contact" class="fa-solid fa-circle-right" style="color: #ffffff;text-decoration: none; "onclick="location.href='HtmlCode4.html';"></a>
+   
+</form> 
+
+
+
+</div> 
+</div> 
+ <hr>
+<p class="copyright">Easy Tutorials 2023 All Rights Rserved</p>
+</footer>
+</div>
+
+
+
+    
+  
     </body>
     </html>

@@ -1,15 +1,10 @@
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth; 
-}
+
 
 
 header {
     background-color: #0f334f;
     width: 100%;
+    height: 70PX;
     position: fixed;
     z-index: 999;
     display: flex;
@@ -17,8 +12,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 0px;
-    margin-bottom: 30px
+    margin-bottom: 80px
     
     
 }
@@ -62,27 +56,50 @@ main {
     color: #737fa0;
     transform: scale(1.1);
 }
-footer {
-    background-color: #17141478;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
+
+        body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+ 
 }
 
 
 
-.animated-background {
-    width: 100%;
-    height: 100%;
-    position:fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    animation: animateBackground 10s linear infinite;
-    background: url("pa.gif") no-repeat; /* استبدل برابط الصورة الخاص بك */
-    background-size: cover; /* تغطية الشاشة بالصورة */
+label {
+    display: block;
+    margin-bottom: 8px;
+    
 }
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: #ff0000;
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
     header {
         padding: 10px;
